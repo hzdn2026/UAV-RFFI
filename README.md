@@ -57,7 +57,6 @@ Feature extraction (optional, if regenerating):
 
     python extract_cyclic.py data1   # 6 ft
     python extract_cyclic.py data2   # 9 ft
-    python extract_cyclic.py data3   # 12 ft
 
 Training (single model; sweep seeds/domain-weights for the ensemble pool):
 
