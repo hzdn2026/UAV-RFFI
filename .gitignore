@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Large artifacts (obtain separately, see README / data/README.md)
+checkpoints/
+data/raw/
+data/h5/
+data/uav_hos_all.npz
+results/cache/
+*.pt
+
+# OS
+.DS_Store
+Thumbs.db
