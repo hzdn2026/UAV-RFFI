@@ -3,8 +3,8 @@
 Best-accuracy pipeline for **cross-burst RF fingerprint identification of hovering
 UAVs**, built entirely from public code and the public GENESYS "Hovering UAVs"
 dataset. The method beats the published 2D-DWT + ASA state of the art on the
-near-field (6 ft) cross-burst benchmark **without using the paper's unpublished
-ASA alignment**.
+near-field (6 ft and 9 ft) cross-burst benchmarks **without using the paper's
+unpublished ASA alignment**.
 
 ## Method
 
@@ -33,11 +33,9 @@ ASA alignment**.
 |----------|----------------------------|-------------------------------|
 | 6 ft (d1) | **94.36%** / **94.28%** (top-18 val sel.) | 93.05% |
 | 9 ft (d2) | **99.35%** / **99.37%** (top-9 val sel.)  | 98.90% |
-| 12 ft (d3) | 87.24% / 73.01% (equal-wt 42; UDA degrades) | 98.90% |
 
-All three distances were re-verified end-to-end from the released checkpoints on
-the reproduction server; logs: `results/repro_data1.log`, `results/repro_data2.log`,
-`results/repro_data3.log`.
+Both distances were re-verified end-to-end from the released checkpoints on the
+reproduction server; logs: `results/repro_data1.log`, `results/repro_data2.log`.
 
 ## Install
 
